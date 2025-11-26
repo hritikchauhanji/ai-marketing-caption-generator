@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python environment variable files
+.env
+.env.*  # In case you use multiple env files
+
+# VS Code project settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.pyo
+*.pyd
+
+# Other
+*.sqlite3
+*.log
