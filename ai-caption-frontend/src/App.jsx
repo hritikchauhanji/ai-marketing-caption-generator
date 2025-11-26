@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const BACKEND_URL = "http://localhost:8000/generate-caption/";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
 function formatCaption(caption) {
   if (!caption) return null;
